@@ -43,7 +43,7 @@
 #ip6tables -A INPUT -p icmp --icmp-type echo-reply -j DROP
 
 # if you want to disconnect in wifi network when a scanning occurs to avoid detection just simply
-# uncomment the line 99 that says  os.system('rfkill block 1)
+# uncomment the line 115 that says  os.system('rfkill block 1)
 # it disables radio signal of wifi.
 
 from scapy.all import ARP, sniff # import what you need
